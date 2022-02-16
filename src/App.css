@@ -1,0 +1,153 @@
+
+
+.stroke {
+
+width: 20px;
+height: 0px;
+left: 161px;
+top: 33px;
+border: 1px solid #000000;
+transform: rotate(90deg);
+}
+
+.unsplashed{
+  width: 287px;
+height: 491px;
+left: 67px;
+cursor: pointer;
+top: 160px;
+}
+
+.compound{
+
+left: 0%;
+right: 1.11%;
+top: 0%;
+bottom: 0%;
+margin-right: 30%;
+
+}
+
+.splash{
+width: 300px;
+height: 269px;
+left: 396px;
+top: 382px;
+margin-top: 222px;
+cursor: pointer;
+}
+
+.splosh {
+  width: 287px;
+height: 365px;
+left: 788px;
+top: 286px;
+margin-top: 125px;
+cursor: pointer;
+}
+
+.split{
+  width: 266px;
+height: 478px;
+left: 1117px;
+top: 173px;
+margin-top: 15px;
+cursor: pointer;
+}
+
+
+.arrowButton {
+position: relative;
+  width: 3%;
+  left: 50%;
+  bottom: 40px;
+  height: 5px;
+  font-size: 1rem;
+  z-index: 1;
+  cursor: pointer;
+  color: #E11493;
+  margin-bottom: 8%;
+}
+
+.heading {
+  position: absolute;
+width: 347px;
+height: 31px;
+left: 600px;
+top: 1341px;
+text-transform: uppercase;
+font-family: Harmonia Sans Pro Cyr;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 170%;
+/* identical to box height, or 31px */
+margin-top: 50px;
+text-align: center;
+letter-spacing: 3px;
+
+color: #000000;
+}
+
+.fairmall_header{
+  position: absolute;
+width: 572px;
+height: 109px;
+left: 432px;
+top: 162px;
+
+font-family: Harmonia Sans Pro Cyr;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 170%;
+/* identical to box height, or 109px */
+
+
+/* Body Text */
+
+color: #212121;
+}
+
+.slide__ {
+width: 182px;
+height: 270px;
+left: 978px;
+top: 0px;
+
+}
+
+.craft{
+  position: absolute;
+width: 353px;
+height: 31px;
+left: 544px;
+top: 2204px;
+
+font-family: Harmonia Sans Pro Cyr;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 170%;
+/* identical to box height, or 31px */
+
+text-align: center;
+letter-spacing: 3px;
+
+color: #000000;
+}
+
+.compound_watermark{
+  position: absolute;
+width: 100x;
+left: 1260px;
+top: 852px;
+margin-top: 200px;
+opacity: 0.06;
+}
+
+.compound_watermark2{
+margin-bottom: -100px;
+left: 1260px;
+opacity: 0.06;
+}
