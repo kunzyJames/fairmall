@@ -1,0 +1,2 @@
+# fairmall
+fairmall with tailwind
