@@ -1,38 +1,489 @@
-.App {
-  text-align: center;
+
+
+.stroke {
+
+width: 20px;
+height: 0px;
+left: 161px;
+top: 33px;
+border: 1px solid #000000;
+transform: rotate(90deg);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.unsplashed{
+  width: 287px;
+height: 491px;
+left: 67px;
+cursor: pointer;
+top: 160px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.compound{
+
+left: 0%;
+right: 1.11%;
+top: 0%;
+bottom: 0%;
+margin-right: 30%;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.splash{
+width: 300px;
+height: 269px;
+left: 396px;
+top: 382px;
+margin-top: 222px;
+cursor: pointer;
+}
+
+.splosh {
+  width: 287px;
+height: 365px;
+left: 788px;
+top: 286px;
+margin-top: 125px;
+cursor: pointer;
+}
+
+.split{
+  width: 266px;
+height: 478px;
+left: 1117px;
+top: 173px;
+margin-top: 15px;
+cursor: pointer;
+}
+
+
+.arrowButton {
+position: relative;
+  width: 3%;
+  left: 50%;
+  bottom: 40px;
+  height: 5px;
+  font-size: 1rem;
+  z-index: 1;
+  cursor: pointer;
+  color: #E11493;
+  margin-bottom: 8%;
+}
+
+.heading {
   display: flex;
-  flex-direction: column;
+  position: absolute;
+width: 347px;
+height: 31px;
+left: 600px;
+top: 1341px;
+text-transform: uppercase;
+font-family: Harmonia Sans Pro Cyr;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 170%;
+/* identical to box height, or 31px */
+margin-top: 50px;
+text-align: center;
+letter-spacing: 3px;
+
+color: #000000;
+}
+
+.fairmall_header{
+  position: absolute;
+width: 572px;
+height: 109px;
+left: 432px;
+top: 162px;
+
+font-family: Harmonia Sans Pro Cyr;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 170%;
+/* identical to box height, or 109px */
+
+
+/* Body Text */
+
+color: #212121;
+}
+
+.slide__ {
+width: 182px;
+height: 270px;
+left: 978px;
+top: 0px;
+
+}
+
+.craft{
+  position: absolute;
+width: 353px;
+height: 31px;
+left: 544px;
+top: 2204px;
+
+font-family: Harmonia Sans Pro Cyr;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 170%;
+/* identical to box height, or 31px */
+
+text-align: center;
+letter-spacing: 3px;
+
+color: #000000;
+}
+
+.compound_watermark{
+  position: absolute;
+width: 100x;
+left: 1260px;
+top: 852px;
+margin-top: 200px;
+opacity: 0.06;
+}
+
+.compound_watermark2{
+margin-bottom: -100px;
+left: 1260px;
+opacity: 0.06;
+}
+
+.rectangle {
+
+max-width: 100%;
+  height: 31px;
+  left: 0px;
+  top: 0px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* Green 2 */
+  
+  background: #27AE60;
+  border-radius: 0px;
 }
 
-.App-link {
-  color: #61dafb;
+.item {
+ 
+width: 167px;
+height: 16px;
+
+
+/* Caption */
+
+font-family: Harmonia Sans Pro Cyr;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+
+/* White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.vectorImage{
+position:relative;
+left: 14.21%;
+right: 12.5%;
+top: 50.29%;
+bottom: 20.83%;
+
+}
+
+.unsplashLr{
+display: flex;
+  width: 500px;
+  height: 400px;
+  margin-left: 8px 0px;
+  left: 0px;
+
+  
+  background: url(../src/components/images/unsplash_lr.png);
+}
+
+.thumbnail{
+  margin-left: 24px;
+  position: absolute;
+  width: 76px;
+  height: 80px;
+  left: 529px;
+
+
+background: url(../src/components/images/thumbnail_1.png);
+}
+.thumbnail2{
+margin-top: -13px;
+margin-left: 10px;
+width: 76px;
+height: 80px;
+left: 529px;
+
+background: url(../src/components/images/thumbnail_1.png);
+}
+
+.thumbnail3{
+  margin-top: -18px;
+  margin-left: 24px;
+position: absolute;
+width: 76px;
+height: 80px;
+left: 529px;
+
+background: url(../src/components/images/thumbnail_1.png);
+}
+.thumbnail4{
+  margin-top: -60px;
+  
+    margin-left: -35%;
+  width: 76px;
+  height: 80px;
+  left: 529px;
+  
+  background: url(../src/components/images/thumbnail_1.png);
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.thumbnail_header{
+  position:absolute;
+ margin-left: 13%;
+  /* Body 3 Small */
+  
+  font-family: Harmonia Sans Pro Cyr;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 100%;
+  /* identical to box height, or 24px */
+  
+  
+  /* Gray 3 */
+  
+  color: #828282;
+  
+}
+.thumbnail_header2{
+  /* Body 3 Small */
+  
+  font-family: Harmonia Sans Pro Cyr;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 100%;
+  /* identical to box height, or 24px */
+  
+  
+  /* Gray 3 */
+  
+  color: #828282;
+  
+}
+
+.product_name{
+  position:relative;
+
+margin-left: 60%;
+width: 173px;
+height: 24px;
+left: 0px;
+top: 1px;
+
+/* H3 */
+
+font-family: Harmonia Sans Pro Cyr;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+}
+
+.heading3{
+
+  width: 91px;
+  height: 19px;
+  left: 0px;
+  top: 60px;
+  margin-top: 5%;
+  font-family: Harmonia Sans Pro Cyr;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  
+  color: #000000;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+margin-left: 60%;
+
+
+/* Inside auto layout */
+
+}
+
+.staricon{
+  position: absolute;
+width: 24px;
+height: 24px;
+left: 735px;
+top: 254px;
+
+}
+
+.description{
+width: 605px;
+height: 342px;
+left: 0px;
+top: 27px;
+
+font-family: Harmonia Sans Pro Cyr;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 135%;
+/* or 19px */
+
+
+/* Gray 2 */
+
+color: #4F4F4F;
+
+
+/* Inside auto layout */
+
+}
+
+.typo{
+  position: static;
+width: 605px;
+height: 342px;
+left: 0px;
+top: 27px;
+
+font-family: Harmonia Sans Pro Cyr;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 135%;
+/* or 19px */
+
+
+/* Gray 2 */
+
+color: #4F4F4F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 8px 0px;
+}
+
+.cart_button{
+margin-left: 55%;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.love_vector{
+
+left: 8.33%;
+right: 8.33%;
+top: 12.5%;
+bottom: 11.04%;
+
+/* Body Text */
+
+}
+
+.keto{
+
+  width: 300px;
+  height: 385px;
+  left: 0px;
+  top: 0px;
+
+  box-shadow: 0px 4px 8px rgba(196, 196, 196, 0.1);
+
+
+}
+
+.inspiration{
+
+  font-family: Harmonia Sans Pro Cyr;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.fv3{
+
+  width: 300px;
+  height: 280px;
+  left: 635px;
+  top: 0px;
+
+}
+
+.ex{
+  position: absolute;
+width: 287px;
+height: 550px;
+left: 953px;
+top: 0px;
+margin-top: 155%;
+
+box-shadow: 0px 4px 8px rgba(196, 196, 196, 0.1);
+
+
+}
+
+.dudu_osun{
+  width: 393px;
+  height: 260px;
+
+  box-shadow: 0px 4px 8px rgba(196, 196, 196, 0.1);
+top: 311px;
+}
+
+.dudu_2{
+  width: 500px;
+height: 260px;
+margin-left: -15%;
+top: 287px;
+
+box-shadow: 0px 4px 8px rgba(196, 196, 196, 0.1);
+
 }
